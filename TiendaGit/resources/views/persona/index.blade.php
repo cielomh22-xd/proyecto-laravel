@@ -10,9 +10,9 @@
   <div class="max-w-6xl mx-auto bg-white shadow-lg rounded-lg p-6">
     <div class="flex justify-between items-center mb-6">
       <h1 class="text-2xl font-bold text-gray-700">Gestionar Persona</h1>
-      <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+      <a href="{{route('persona.create')}}" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
         + Agregar Persona
-      </button>
+      </a>
     </div>
 
     <!-- Tabla -->

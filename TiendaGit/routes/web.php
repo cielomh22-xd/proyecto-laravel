@@ -10,5 +10,7 @@ Route::get('/', function () {
 });
 
 Route::get('/persona', [PersonaController::class, 'index']) ->name('persona.index');
+Route::get('/persona/create', [PersonaController::class, 'create']) ->name('persona.create');
+
 Route::get('/producto', [ProductoController::class, 'index']) ->name('producto.index');
 Route::get('/venta', [VentaController::class, 'index']) ->name('venta.index');
